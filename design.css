@@ -1,11 +1,11 @@
 header {
     overflow: hidden;
-    background-color: #584e57;
+    background-color: #063d56;
     padding: 20px 10px;
   }
   header a {
     float: center;
-    color: black;
+    color: rgb(218, 202, 202);
     text-align: left;
     padding: 12px;
     text-decoration: none;
@@ -18,10 +18,7 @@ body {
     background-repeat: no-repeat;
     background-size: 325%;
 }
-ul{
-    margin-left: 500px;
-    margin-right: 20px;
-}
+
 img {
    
     display: block;
@@ -31,13 +28,7 @@ img {
 #text1 {
     text-align: center;
 }
-#nav {
-    display: inline;
-    margin: auto;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-}
+
 
 .grid-container {
     background-repeat: no-repeat;
@@ -54,6 +45,7 @@ img {
     padding: 20px;
     font-size: 30px;
     text-align: center;
+    
   }
  
  
@@ -76,6 +68,11 @@ img {
     text-align: center;
     color: white;
   }
-  
+  #booking {
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+
+  }
 
   
