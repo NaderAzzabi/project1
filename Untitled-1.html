@@ -5,33 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="Untitled-2.css">
-    <script type="text/javascript" src="/jquery/jquery-3.6.0.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
     <title>Solo project</title>
 </head>
 <body>
+  
+
   <nav>
     <ul>
       <li id="nav"><a href="#">Home</a></li>
-      <li id="nav"><a href="#">About</a></li>
-      <li id="nav"><a href="#">Services</a></li>
+      
       <li id="nav"><a href="#">Contact</a></li>
     </ul>
   </nav>
-    <p id="text1">Here are the 10 most visited countries in the world, according to the last issue of the <a href="https://www.e-unwto.org/doi/abs/10.18111/wtobarometereng.2023.21.1.1">UNWTO</a> World Tourism Barometer for January 2023</p>
+  <input type="text" id="search-bar"  placeholder="Search country">
+  <button id="search-button">Search</button>
+    <p id="text1">Here, are the 10 most visited countries in the world, according to the last issue of the <a href="https://www.e-unwto.org/doi/abs/10.18111/wtobarometereng.2023.21.1.1">UNWTO</a> World Tourism Barometer for January 2023</p>
     <ul id="image">
-    <li>France 
-      <a href="https://www.france.fr/en"><img src="https://media.istockphoto.com/id/1403617423/photo/young-woman-tourist-in-sun-hat-and-white-dress-standing-in-front-of-eiffel-tower-in-paris-at.jpg?s=612x612&w=0&k=20&c=5M4C_uB1F7HVhLG1Z82yn3uthqAU_arGvpJiNO88bhg="></a></li >
-      <li>Hotels reservation</li>
-      <li>Italy<a href="https://www.lonelyplanet.com/italy"><img src="https://nomadparadise.com/wp-content/uploads/2022/09/places-to-visit-italy-1-1024x683.jpg.webp"></a></li>
-      <li>Mexico<a href="https://www.nomadicmatt.com/travel-guides/mexico-travel-tips/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrQUPKyWnydjqy7r6J4qYuVZJjxUy0ENbNA&usqp=CAU"></a></li>
-      <li>Spain <a href="https://www.spain.info/en/"><img src="https://cdn.images.express.co.uk/img/dynamic/25/590x/Spain-top-pic-1479134.jpg?r=1630045112250"></a></li>
-      <li>Turkiye<a href="https://goturkiye.com/"><img src="https://as2.ftcdn.net/v2/jpg/03/03/42/75/1000_F_303427548_7dJUuLArajX5xl2tEe4MmTkq4ID3buIZ.jpg"></a></li>
-      <li>United State <a href="https://www.roughguides.com/usa/"><img src="https://mumslittleexplorers.com/wp-content/uploads/2022/10/Visit-the-US-reasons.jpg"></a></li>
-      <li>Greece <a href="https://www.tggr.com/"><img src="https://media.istockphoto.com/id/495700001/photo/greek-flag-over-oia.jpg?s=612x612&w=0&k=20&c=OoNAQaf1ZsZsLywC_1ZTx2W4JuI5MXW4GKER1xLAnss="></a></li>
-      <li>Austria<a href="https://www.austria.info/en"> <img src="https://thumbs.dreamstime.com/b/tourist-holding-austrian-flag-hallstatt-austria-travel-concept-212102333.jpg"></a></li>
-      <li>Germany <a href="https://www.germany.travel/en/home.html"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF2OBU9-a5fHaLfxRrctXtN7qtINZSDpnUjg&usqp=CAU"></a></li>
-      <li>United Arab Emirates <a href ="https://www.roughguides.com/united-arab-emirates/"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHQ0GeyfometjVRTr5otl_eoiT1BWz2DieYA&usqp=CAU"></a></li>
+    <li id="fr">France 
+      <a href="https://www.france.fr/en"><img id="img11" src="https://media.istockphoto.com/id/1403617423/photo/young-woman-tourist-in-sun-hat-and-white-dress-standing-in-front-of-eiffel-tower-in-paris-at.jpg?s=612x612&w=0&k=20&c=5M4C_uB1F7HVhLG1Z82yn3uthqAU_arGvpJiNO88bhg="></a></li >
+
+      <li id="">Italy<a href=><img id="img1" src="https://nomadparadise.com/wp-content/uploads/2022/09/places-to-visit-italy-1-1024x683.jpg.webp"></a></li>
+      <li>Mexico<a  href="https://www.nomadicmatt.com/travel-guides/mexico-travel-tips/"><img id="img2" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQrQUPKyWnydjqy7r6J4qYuVZJjxUy0ENbNA&usqp=CAU"></a></li>
+      <li>Spain <a href="https://www.spain.info/en/"><img id="img3" src="https://cdn.images.express.co.uk/img/dynamic/25/590x/Spain-top-pic-1479134.jpg?r=1630045112250"></a></li>
+      <li>Turkiye<a href="https://goturkiye.com/"><img id="img4" src="https://as2.ftcdn.net/v2/jpg/03/03/42/75/1000_F_303427548_7dJUuLArajX5xl2tEe4MmTkq4ID3buIZ.jpg"></a></li>
+      <li>United State <a href="https://www.roughguides.com/usa/"><img id="img5" src="https://mumslittleexplorers.com/wp-content/uploads/2022/10/Visit-the-US-reasons.jpg"></a></li>
+      <li>Greece <a href="https://www.tggr.com/"><img id="img6" src="https://media.istockphoto.com/id/495700001/photo/greek-flag-over-oia.jpg?s=612x612&w=0&k=20&c=OoNAQaf1ZsZsLywC_1ZTx2W4JuI5MXW4GKER1xLAnss="></a></li>
+      <li>Austria<a href="https://www.austria.info/en"> <img  id="img7" src="https://thumbs.dreamstime.com/b/tourist-holding-austrian-flag-hallstatt-austria-travel-concept-212102333.jpg"></a></li>
+      <li>Germany <a href="https://www.germany.travel/en/home.html"><img id="img8" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQF2OBU9-a5fHaLfxRrctXtN7qtINZSDpnUjg&usqp=CAU"></a></li>
+      <li>United Arab Emirates <a href ="https://www.roughguides.com/united-arab-emirates/"><img id="img9" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSHQ0GeyfometjVRTr5otl_eoiT1BWz2DieYA&usqp=CAU"></a></li>
     </ul>
+    <p>Thanks for your visit, hope you find what you are searching for</p>
         
 
 
