@@ -1,0 +1,81 @@
+header {
+    overflow: hidden;
+    background-color: #584e57;
+    padding: 20px 10px;
+  }
+  header a {
+    float: center;
+    color: black;
+    text-align: left;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    line-height: 25px;
+    border-radius: 4px;
+  }
+body {
+    background-image: url('https://wallpaperaccess.com/full/1318106.jpg');
+    background-repeat: no-repeat;
+    background-size: 325%;
+}
+ul{
+    margin-left: 500px;
+    margin-right: 20px;
+}
+img {
+   
+    display: block;
+    border-radius: 20px;
+    width: 100%;
+}
+#text1 {
+    text-align: center;
+}
+#nav {
+    display: inline;
+    margin: auto;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.grid-container {
+    background-repeat: no-repeat;
+    background-size: 120%;
+    background-image: url('https://wallpaperaccess.com/full/1318106.jpg');
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background-color: #2196F3;
+    padding: 10px;
+  }
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    border: 1px solid rgba(0, 0, 0, 0.8);
+    padding: 20px;
+    font-size: 30px;
+    text-align: center;
+  }
+ 
+ 
+  #h {
+    text-align: center;
+  }
+  p {
+    text-align: center;
+    font-size: 40px;
+    color: #2196F3;
+  }
+  .text1 {
+    color:#2196F3;
+    text-align: center;
+    text-decoration: solid;
+  }
+  footer {
+    background-color: #160303;
+    padding: 10px;
+    text-align: center;
+    color: white;
+  }
+  
+
+  
