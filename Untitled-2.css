@@ -1,3 +1,15 @@
-#h {
-    color:red;
+body {
+    background-color:rgb(80, 132, 93);
+}
+img {
+    margin: auto;
+    display: block;
+    border-radius: 20px;
+    width: 30%;
+}
+#text1 {
+    text-align: center;
+}
+#nav {
+    display: inline;
 }
